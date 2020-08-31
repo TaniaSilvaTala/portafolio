@@ -1,5 +1,6 @@
 import React from "react"
 import detail from "../images/detail_1.png"
+import flores from "../images/flores.jpg"
 
 const Inicio = () => (
   <section className="inicio" id="inicio">
@@ -12,13 +13,9 @@ const Inicio = () => (
       <h3>Diseñadora </h3>
       <h3>Industrial y UX/UI</h3>
       <div className="inicio-img">
-        <img src={"https://github.com/TaniaSilvaTala/portafolio/blob/source/src/images/flores.jpg?raw=true"} alt="inicio" />
+        <img src={flores} alt="inicio" />
       </div>
-      <img
-        src={detail}
-        alt="detail"
-        className="inicio-detail"
-      />
+      <img src={detail} alt="detail" className="inicio-detail" />
     </div>
   </section>
 )
